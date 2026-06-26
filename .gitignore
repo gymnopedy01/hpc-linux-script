@@ -1,11 +1,31 @@
+# Ignore personal shell and editor config files
 /.bash_history
 /.bash_logout
 /.bash_profile
 /.bashrc
+/.cshrc
+/.tcshrc
+
+# Ignore local editor and IDE settings
+/.vscode-server
+/.copilot
+/.idea
+.vscode
+
+# Ignore caches and temporary files
 /.cache
 /.config
-/.copilot
-/.cshrc
+*.swp
+*~
+*.tmp
+*.log
+*.status
+*.out
+*.err
+
+# Ignore user SSH keys and sensitive data
 /.ssh
-/.tcshrc
-/.vscode-server
+
+# OS and device files
+.DS_Store
+Thumbs.db
