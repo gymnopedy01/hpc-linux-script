@@ -5,6 +5,8 @@
 /.bashrc
 /.cshrc
 /.tcshrc
+/.gitignore
+/.gitconfig
 
 # Ignore local editor and IDE settings
 /.vscode-server
